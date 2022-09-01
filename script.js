@@ -50,7 +50,6 @@ function generatePassword() {
   for(let i = 0; i < parseInt(passwordLength); i++){
     let randomChar = wantedChar[Math.floor(Math.random()*wantedChar.length)];generatedPassword = generatedPassword + randomChar;
   }
-console.log(generatedPassword.length);
 return generatedPassword;
 }
 
